@@ -3,8 +3,8 @@ import subprocess
 from pathlib import Path
 
 # Configuración
-carpeta_entrada = r"C:\Users\ASUS\Desktop\Canada\procesar_flir_one_edge"
-carpeta_salida = r"C:\Users\ASUS\Desktop\Canada\imagenes_raw_flir_one"
+carpeta_entrada = r"C:\Users\ASUS\Desktop\Canada_Repository\termography\data\data_roboflow_flir_one_160_120"
+carpeta_salida = r"C:\Users\ASUS\Desktop\Canada_Repository\termography\data\data_roboflow_flir_one_160_120\extracted_thermal_images"
 
 # Crear carpeta de salida si no existe
 Path(carpeta_salida).mkdir(parents=True, exist_ok=True)
